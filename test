@@ -1,1 +1,15 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <p align="center">Can we ask some question?</p>
+        <p>What is your name and password</p>
+        <form>
+    <input type="text" name="имя пользователя" /> <br />
+    <input type="password"
+     name="пароль" />
+</form>
+    </body>
+</html>
