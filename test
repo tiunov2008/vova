@@ -10,6 +10,6 @@
     <input type="text" name="имя пользователя" /> <br />
     <input type="password"
      name="пароль" />
-</form>
-    </body>
-</html>
+     <input type="submit" name="submit"/>
+
+   <input type="submit" value="Send"/>
