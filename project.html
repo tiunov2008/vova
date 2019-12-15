@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+    </head>
+    <body>
+        <p align="center">Can we ask some questions?</p>
+        <form method="POST" target="project-2">
+            <p>What is your name and surname?</p>
+            <!-- Полле для ввода имени -->
+            <input type="text" name="имя пользователя" onkeyup="var yratext=/['\d']/; if(yratext.test(this.value)) alert('Введены запрещенные символы')"/> <br/>
+            <!-- Полле для ввода фамилии -->
+            <input type="text" name="фамилия" onkeyup="var yratext=/['\d']/; if(yratext.test(this.value)) alert('Введены запрещенные символы')" />
+
+        </form><br>
+       
+        <p>Your gender:</p>
+
+        <form method="POST" target="project-2"> 
+            <input type="radio" name="radioButton"> MAN<br>
+            <input type="radio" name="radioButton"> WOMAN
+            
+        </form>
+        <form method="POST" target="_blank">
+            <p>What is your age?</p>
+                <!-- Полле для ввода возраста -->
+                <input type="number" name="возраст пользователя" min="0" max="120" step="1" maxlength="3"/>
+            </form>
+        <form method="POST" action="project-2"><br>
+            <!-- Кнопка -->            
+            <input type="submit">
+        </form>            
+    </body>
+</html>
